@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+//    //  Q1:    Declare a variable called age & assign to it your age. Show your age in an alert box.
+
+var age = prompt("My age is:")
+          alert("I am "+ age + " years old");
+
+//     //  Q2: Declare & initialize a variable to keep track of how many times a visitor has visited a web page. Show his/her number of visits on your web page. For example: “You have visited this site N times”.
+    
+//     var n = 14;
+//     alert("You have visited this site" + n + "times");
+
+
+// // Q3  Declare a variable called birthYear & assign to it your birth year. Show the following message in your browser:
+//     var birthYear = 1995;
+//     document.write(birthYear); 
+    
+
+// //Q4 A visitor visits an online clothing store www.xyzClothing.com . Write a script to store in variables
+//         var name = prompt("My name is","Not Given");
+//         var productTitle = prompt("My chosen product is","Not Given");
+//         var quantity = prompt("Quantity ordered is","Not Given");
+//         alert(name + " ordered " + quantity + " " + productTitle + "(s) on XYZ Clothing store");
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

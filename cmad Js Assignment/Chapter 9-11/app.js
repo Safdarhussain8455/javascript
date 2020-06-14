@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+       
+     //  Q1: Write a program to take “city” name as input from user. If user enters “Karachi”, welcome the user like this: “Welcome to city of lights” 
+        var city = prompt("Enter city","Other");
+        if(city==="Karachi")
+            {
+                document.write("Welcome to city of lights");
+            }
+        else if(city==="Other")
+        document.write("Welcome to the city");
+        
+   // Q2: Write a program to take “gender” as input from user. If the user is male, give the message: Good Morning Sir. If the user is female, give the message: Good Morning Ma’am.
+       
+        var gender = prompt("Enter Gender");
+        
+        if(gender==="Male")
+            document.write("Good Morning Sir");
+        else if(gender==="Female")
+            document.write("Good Morning Ma’am");
+        
+        
+   // Q3: Write a program to take input color of road traffic signal from the user & show the message according to this table: 
+
+// Signal color 	Message 
+// Red 	        Must Stop 
+// Yellow 	        Ready to move 
+// Green       	Move now 
+
+
+      var color = prompt("Enter Traffic light color");
+        if(color==="Red")
+            document.write("Must Stop");
+        else if(color==="Yellow")
+            document.write("Ready to move");
+        else if(color==="Green")
+            document.write("Move now");
+    // Q5:Run this script, & check whether alert message would be displayed or not. Record the outputs.
+       
+        //A--------------------------------------------------
+
+        // var a = 4; 
+        // if (++a === 5){ 
+        //     alert("given condition for variable a is true"); 
+        // }
+
+
+        //B--------------------------------------------------
+
+        // var b = 82; 
+        // if (b++ === 83){ 
+        //     alert("given condition for variable b is true"); 
+        // }
+
+
+        //C--------------------------------------------------
+/*        var c = 12;
+        if (c++ === 13){
+            alert("condition 1 is true"); 
+        } 
+        if (c === 13){
+            alert("condition 2 is true"); 
+        }
+        if (++c < 14){
+            alert("condition 3 is true");
+        } 
+        if(c === 14){
+            alert("condition 4 is true");
+        }*/
+        
+        //D--------------------------------------------------
+/*        var materialCost = 20000;
+        var laborCost = 2000;
+        var totalCost = materialCost + laborCost;
+        if (totalCost === laborCost + materialCost){
+            alert("The cost equals");
+        }
+        */
+        //E--------------------------------------------------
+/*
+        if (true){ 
+            alert("True"); 
+        } 
+        if (false){
+            alert("False");
+        }
+*/
+
+        //F--------------------------------------------------
+/*        if("car" < "cat"){
+            alert("car is smaller than cat");
+        }*/
+        
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
